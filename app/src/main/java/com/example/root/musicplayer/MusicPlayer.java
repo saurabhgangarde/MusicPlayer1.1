@@ -40,6 +40,8 @@ public class MusicPlayer extends Activity {
             int maxDuration = intent.getIntExtra("duration", 0);
             PlayerFragment playerFragment = (PlayerFragment) getFragmentManager().findFragmentById(R.id.FragmentContainer);
             playerFragment.getCurrentDuration(currentPosition);
+            playerFragment.getCurrentDuration(currentPosition);
+
 
         }
     };
